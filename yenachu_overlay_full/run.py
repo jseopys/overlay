@@ -29,7 +29,7 @@ class ChzzkChat:
         self.accessToken, self.extraToken = api.fetch_accessToken(self.chatChannelId, self.cookies)
 
         # 오버레이용 Node 서버 연결
-        self.overlay_ws_url = "ws://1 118.42.157.55:3000"  # 🔸 Node에서 사용하는 포트 맞춰줘야 함
+        self.overlay_ws_url = "ws://118.42.157.55:3000"  # 🔸 Node에서 사용하는 포트 맞춰줘야 함
         self.overlay_ws = None
         self._connect_overlay_ws()
 
