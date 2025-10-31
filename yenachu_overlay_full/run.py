@@ -215,7 +215,7 @@ def get_logger():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--streamer_id', type=str, default='9381e7d6816e6d915a44a13c0195b202')
+    parser.add_argument('--streamer_id', type=str, default='6a6da7669b9c07536e11e804a1e494f2')
     args = parser.parse_args()
 
     with open('cookies.json', encoding='utf-8') as f:
